@@ -100,7 +100,7 @@ MonoBehaviour:
   m_Name: Conversation_
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: -392, y: -264}
+  position: {x: -392, y: -312}
   ports:
     keys:
     - Entry
@@ -131,8 +131,9 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   Entry: 0
+  identificador: 1
   NPCText: "Bem-vinda a Rave... Quem \xE9 voc\xEA?"
-  Opcao1: "Meu nome \xE9 Vivi"
+  Opcao1: texto
   Opcao1FullText: "Ol\xE1, eu me chamo Vivi, sou uma pastora.  "
   Opcao2: (pensamento2)op2
   Opcao2FullText: 
@@ -186,6 +187,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   Entry: 0
+  identificador: 
   NPCText: "Ela estava toda preta, todo corpo decomposto \xE9 preto."
   Opcao1: "(Ele deve ter confundido a l\xE3 preta) Posso conferir?"
   Opcao1FullText: "Ser\xE1 que eu n\xE3o poderia entrar s\xF3 para ver minha ovelha
@@ -270,6 +272,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   Entry: 0
+  identificador: 
   NPCText: "Eu at\xE9 deixei uma ovelhinha negra entrar, mas n\xE3o vou deixar voc\xEA
     passar!"
   Opcao1: Por que!?
@@ -708,6 +711,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   Entry: 0
+  identificador: 
   NPCText: "Eu n\xE3o tenho lhos mas eu consigo ver muito bem! Agora saia daqui que
     voc\xEA n\xE3o vai entrar!"
   Opcao1: Eu vou dar um jeito de entrar, voce  vai ver!
@@ -773,6 +777,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   Entry: 0
+  identificador: pudim
   NPCText: E o que voce faz aqui, pastorinha?
   Opcao1: Estou procurando minha ovelha
   Opcao1FullText: A minha ovelha fugiu e estou procurando ela. Voce viu uma ovelha
@@ -862,6 +867,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   Entry: 0
+  identificador: 
   NPCText: "Eu sou o Coveiro e n\xE3o irei deixar voc\xEA entrar. Somente os mortos
     podem entrar em Raveyard."
   Opcao1: "(Ser\xE1 que a ovelha morreu!? Preciso encontrar ela)Ela morreu??"
@@ -918,6 +924,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   Entry: 0
+  identificador: 
   NPCText: "De jeito nenhum! S\xF3 os mortos podem entrar! Se eu deixar voce entrar,
     eu perco meu emprego!"
   Opcao1: (Vou ter que achar um jeito de passar sem ser percebida)
